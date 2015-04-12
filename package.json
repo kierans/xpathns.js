@@ -1,0 +1,36 @@
+{
+  "name": "xpathns.js",
+  "version": "1.0.0",
+  "description": "Wrapper for xpath.js to allow namespaces in queries",
+  "author": {
+    "name": "Kieran Simpson",
+    "email": "kierans777@gmail.com"
+  },
+  "license": "Apache License 2.0",
+  "keywords": [
+    "xml",
+    "xpath"
+  ],
+  "bugs": "https://bitbucket.org/kierans777/xpathns.js/issues",
+  "repository": {
+    "type": "hg",
+    "url": "https://bitbucket.org/kierans777/xpathns.js"
+  },
+  "main": "src/xpathns.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "xpath.js": ">= 1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha-should": "git+https://github.com/kierans/mocha-should.git#RELEASE_0_0_1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-simple-mocha": "^0.4.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "mocha": "^2.2.4"
+  }
+}
