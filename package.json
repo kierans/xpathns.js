@@ -1,6 +1,6 @@
 {
   "name": "xpathns.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wrapper for xpath.js to allow namespaces in queries",
   "author": {
     "name": "Kieran Simpson",
