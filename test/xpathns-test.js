@@ -15,7 +15,7 @@ var nsMap = {
 };
 
 var xpath = require("../src/xpathns")(nsMap),
-    xpathAssertions = require("xpath.js-assertions")(xpath);
+    xpathAssertions = require("@kierans777/xpath.js-assertions")(xpath);
 
 describe("XPathNS.js tests", function() {
   should("find text content", function(done) {
