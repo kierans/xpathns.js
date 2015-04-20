@@ -15,16 +15,16 @@ Install xpath.js and an XML engine (eg: [xmldom](https://github.com/jindw/xmldom
 
 ## Your first xpath with namespaces:
 `````javascript
-  var nsMap = {
-    ns1: "urn:somenamespace"
-  };
+	var nsMap = {
+		ns1: "urn:somenamespace"
+	};
   
 	var select = require("xpathns.js")(nsMap),
 	    dom = require("xmldom").DOMParser;
 
 	var xml = "<book xmlns=\"urn:somenamespace\"><title>Harry Potter</title></book>";
 	var doc = new dom().parseFromString(xml);
-	var nodes = select(doc, "//ns1:title")';
+	var nodes = select(doc, "//ns1:title");
 	
 	console.log(nodes[0].localName + ": " + nodes[0].firstChild.data);
 	console.log("node: " + nodes[0].toString());
